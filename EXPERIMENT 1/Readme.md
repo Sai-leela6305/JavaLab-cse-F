@@ -61,4 +61,4 @@ class exp_1b {
 ```
 
 # OUTPUT
-![output of quaratic equation](exp1a.PNG)
+![output of quaratic equation](exp1b.PNG)
