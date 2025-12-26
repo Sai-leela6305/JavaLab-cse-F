@@ -23,4 +23,4 @@ System.out.println("double:"+d);
 ```
 
 # OUTPUT
-![output of primitive](exp1a.png)
+![output of primitive](exp1a.PNG)
