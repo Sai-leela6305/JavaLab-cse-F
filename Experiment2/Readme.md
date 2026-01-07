@@ -48,3 +48,30 @@ class main{
 ```
 # OUTPUT
 ![output of overloading in java](exp2b.PNG)
+
+## TITLE :2c.) Implements class customer in java
+```
+class student{
+ String name;
+ int age;
+ double marks;
+ student(String n,int a,double m){
+   name = n;
+   age = a;
+   marks=m;
+ }
+ void display(){
+   System.out.println("student name:"+name);
+   System.out.println("student age:"+age);
+   System.out.println("student marks:"+marks);
+ }
+}
+class main{
+  public static void main(String arg[]){
+    student std=new student("pavani",22,98.6);
+    std.display();
+  }
+}
+```
+![output of customer in java](exp2c.PNG)
+
