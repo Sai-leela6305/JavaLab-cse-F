@@ -22,4 +22,4 @@ class main {
 }
 ```
 # OUTPUT
-![output of class mechanism in java](2a.png)
+![output of class mechanism in java](2a.PNG)
