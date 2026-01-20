@@ -44,4 +44,4 @@ class Student {
 }
 ```
 # OUTPUT
-![output of constructor overloading in java](3a.png)
+![output of constructor overloading in java](3a.PNG)
