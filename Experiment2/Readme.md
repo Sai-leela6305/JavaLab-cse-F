@@ -1,5 +1,5 @@
 # EXPERIMENT 2
-## TITLE : 2a.) Implementies class mechanism in java
+## TITLE : 2a.) Implementing class mechanism in java
 ```
 class square {
   int length;
@@ -24,7 +24,7 @@ class main {
 # OUTPUT
 ![output of class mechanism in java](2a.PNG)
 
-## TITLE :2b.) Implements method overloading in java
+## TITLE :2b.) Implement method overloading in java
 ```
 class add{
  int add(int a,int b){
@@ -49,7 +49,7 @@ class main{
 # OUTPUT
 ![output of overloading in java](exp2b.PNG)
 
-## TITLE :2c.) Implements class customer in java
+## TITLE :2c.) Implement class customer in java
 ```
 class student{
  String name;
