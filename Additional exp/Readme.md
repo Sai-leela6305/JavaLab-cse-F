@@ -11,8 +11,10 @@ public class InsertSubstring {
         String subString = sc.nextLine();
         System.out.print("Enter the position to insert the substring: ");
         int position = sc.nextInt();
+
         if (position < 0 || position > mainString.length()) {
             System.out.println("Invalid position!");
+
         } else {
             String firstPart = mainString.substring(0, position);
             String secondPart = mainString.substring(position);
@@ -25,7 +27,7 @@ public class InsertSubstring {
 }
 ```
 # OUTPUT :
-![output of substring}(substring.PNG)
+![output of substring](substring.PNG)
 ## TITLE : 2.) Display of fibonacci series
 ```
 import java.util.Scanner;
