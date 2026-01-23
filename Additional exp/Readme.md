@@ -1,5 +1,5 @@
 # Additional experiment
-## TITLE : Insert a substring into a main string
+## TITLE : 1.)Insert a substring into a main string
 ```
 import java.util.Scanner;
 public class InsertSubstring {
@@ -75,7 +75,7 @@ class Fibonacci {
 # OUTPUT
 ![output of fibonacci series](fibonacci.PNG)
 
-## TITLE : Given string is a palindrome or not
+## TITLE :3.) Given string is a palindrome or not
 ```
 import java.util.Scanner;
 
@@ -110,3 +110,33 @@ public class PalindromeCheck {
 ```
 # OUTPUT :
 ![output of string is a palindrome or not](palindrome.PNG)
+
+## TITLE : 4.) check a number is a perfect number or not
+```
+import java.util.Scanner;
+public class PerfectNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a positive integer: ");
+        int num = sc.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= num - 1; i++) {
+            if (num % i == 0) {
+                sum = sum + i;
+            }
+        }
+
+        if (sum == num) {
+            System.out.println(num + " is a perfect number");
+        } else {
+            System.out.println(num + " is not a perfect number");
+        }
+
+        sc.close();
+    }
+}
+```
+# OUTPUT
+![output of perfectNumber](perfectnum.PNG)
