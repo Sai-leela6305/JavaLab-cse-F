@@ -1,4 +1,31 @@
 # Additional experiment
+## TITLE : Insert a substring into a main string
+```
+import java.util.Scanner;
+public class InsertSubstring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the main string: ");
+        String mainString = sc.nextLine();
+        System.out.print("Enter the substring to insert: ");
+        String subString = sc.nextLine();
+        System.out.print("Enter the position to insert the substring: ");
+        int position = sc.nextInt();
+        if (position < 0 || position > mainString.length()) {
+            System.out.println("Invalid position!");
+        } else {
+            String firstPart = mainString.substring(0, position);
+            String secondPart = mainString.substring(position);
+            String resultString = firstPart + subString + secondPart;
+            System.out.println("Resulting string: " + resultString);
+        }
+
+        sc.close();
+    }
+}
+```
+# OUTPUT :
+![output of substring}(substring.PNG)
 ## TITLE : 2.) Display of fibonacci series
 ```
 import java.util.Scanner;
@@ -44,4 +71,4 @@ class Fibonacci {
 }
 ```
 # OUTPUT
-![output of fibonacci](fibonacci.PNG)
+![output of fibonacci series](fibonacci.PNG)
