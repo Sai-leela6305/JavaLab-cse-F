@@ -152,3 +152,26 @@ public class TestVehicle {
 ```
 # OUTPUT
 ![output of polymorphism](5b.output.PNG)
+
+## TITLE :5C.)StringBuffer
+```
+class DeleteChar {
+
+    public static void main(String args[]) {
+
+        StringBuffer sb = new StringBuffer("Java Programming");
+
+        System.out.println("Original String: " + sb);
+
+        // Delete character at index 4
+        sb.deleteCharAt(4);
+        System.out.println("After deleting character at index 4: " + sb);
+
+        // Delete a range of characters (0 to 4)
+        sb.delete(0, 4);
+        System.out.println("After deleting characters from index 0 to 4: " + sb);
+    }
+}
+```
+# OUTPUT
+![output of string buffer](5c.output.PNG)
