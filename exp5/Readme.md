@@ -92,4 +92,4 @@ public class TestSort {
 }
 ```
 # OUTPUT
-![output of interface](5a.output.png)
+![output of interface](5a.output.PNG)
