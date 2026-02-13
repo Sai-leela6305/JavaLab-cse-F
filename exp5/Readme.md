@@ -174,4 +174,4 @@ class DeleteChar {
 }
 ```
 # OUTPUT
-![output of string buffer](5c.output.PNG)
+![output of string buffer](5c.output.png)
