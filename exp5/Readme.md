@@ -93,3 +93,62 @@ public class TestSort {
 ```
 # OUTPUT
 ![output of interface](5a.output.PNG)
+
+# TITLE :5b.)Run time polymorphism
+```
+// Vehicle.java
+public class Vehicle {
+    public void run() {
+        System.out.println("Vehicle is running");
+    }
+}
+
+// Car.java
+public class Car extends Vehicle {
+
+    @Override
+    public void run() {
+        System.out.println("Car is running on four wheels");
+    }
+}
+
+// Bike.java
+public class Bike extends Vehicle {
+
+    @Override
+    public void run() {
+        System.out.println("Bike is running on two wheels");
+    }
+}
+
+// TestVehicle.java
+import java.util.Scanner;
+
+public class TestVehicle {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        Vehicle v;   // parent reference
+
+        System.out.println("Choose vehicle type:");
+        System.out.println("1. Car");
+        System.out.println("2. Bike");
+
+        int choice = sc.nextInt();
+
+        if (choice == 1) {
+            v = new Car();   // dynamic assignment
+        } else if (choice == 2) {
+            v = new Bike();  // dynamic assignment
+        } else {
+            v = new Vehicle(); // default
+        }
+
+        v.run();   // runtime polymorphism
+
+        sc.close();
+    }
+}
+```
+# OUTPUT
+![output of polymorphism](5b.output.PNG)
